@@ -124,3 +124,19 @@ button:hover{
     border-radius:8px;
     cursor:pointer;
 }
+nnav{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #22c55e;
+}
