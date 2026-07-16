@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockVision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📈 StockVision</h1>
+
+    <div>
+        <input type="text" placeholder="Search Stocks...">
+        <button id="themeBtn">🌙 Dark</button>
+        <div id="clock"></div>
+    </div>
+</header>
+
+<main>
+    <h2>Track Stocks Like a Pro</h2>
+    <p>Live prices, charts, watchlist and market news.</p>
+
+    <div class="stock-container">
+
+        <div class="card">
+         <div class="logo">🚗</div>
+            <h3>Tata Motors</h3>
+            <p>₹742.50</p>
+            <span class="green">+2.15%</span><br><br>
+            <button class="watchlist-btn">Add to Watchlist ⭐</button>
+        </div>
+
+        <div class="card">
+          <div class="logo">🏦</div>
+            <h3>HDFC Bank</h3>
+            <p>₹1,980.40</p>
+            <span class="green">+0.95%</span><br><br>
+            <button class="watchlist-btn">Add to Watchlist ⭐</button>
+        </div>
+
+        <div class="card">
+     <div class="logo">💻</div>
+            <h3>Infosys</h3>
+            <p>₹1,620.75</p>
+            <span class="green">+1.80%</span><br><br>
+            <button class="watchlist-btn">Add to Watchlist ⭐</button>
+        </div>
+
+    </div>
+
+</main>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span id="close">&times;</span>
+        <h2 id="stockName"></h2>
+        <p id="stockPrice"></p>
+        <p>Market Status: Open</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
